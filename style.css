@@ -1,0 +1,128 @@
+body {
+    font-family: Open Sans;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: -20px;
+    margin-left: -46px;
+    margin-right: -46px;
+    background-color: rgb(153, 153, 153);
+    box-shadow: 2px 2px 10px rgb(158, 154, 154);
+}
+
+
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+}
+
+.button {
+    position: relative;
+    float:right;
+    margin: 0 2px 0 2px;
+    color: white !important;
+    padding: 7px 20px;
+    border: none;
+    background-color: rgb(33, 83, 52);
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s all ease;
+}
+
+.button:hover{
+    background-color: rgb(31, 151, 111);
+    transform: translateY(-7%);
+}
+
+.button.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+
+button {
+    position: relative;
+    float:right;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+#container {
+    width:50%;
+    margin:100px auto;
+    padding: 40px 40px 70px 40px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 9px;
+    
+    color: #080000;
+    font-weight: bold;
+    box-shadow: 5px 5px 15px #888;
+    transition: .5s all ease;
+}
+#container:hover{
+    transform: scale(1.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 90px;
+}
+
+#chk-btn{
+    padding: 10px 18px;
+    border: none;
+    color: white;
+    background-color: rgb(4, 4, 155);
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s all ease;
+}
+
+#chk-btn:hover{
+    background-color: blue;
+    transform: translateY(-7%);
+}
+
+
+h2{
+    display: inline;
+}
+
+#quiz i{
+    display: none;
+    font-size: 30px;
+    float: right;
+    transition: .5s all ease;
+    cursor:crosshair;
+    
+}
+
+#quiz i:hover{
+    transform: scale(3);
+    cursor: pointer;
+}
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
